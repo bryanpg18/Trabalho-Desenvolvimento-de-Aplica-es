@@ -3,121 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xis Delícia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header, footer {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 1em;
-            text-decoration: none;
-        }
-        .highlight {
-            background: url('highlight-image.jpg') no-repeat center center;
-            background-size: cover;
-            color: white;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 2em;
-        }
-        .highlight h1 {
-            font-size: 3em;
-        }
-        .content {
-            padding: 2em;
-        }
-        .menu-item {
-            margin: 2em 0;
-        }
-        .menu-item img {
-            max-width: 100%;
-        }
-        .testimonial {
-            background-color: #f9f9f9;
-            padding: 2em;
-            margin: 2em 0;
-        }
-        .contact-form, .map {
-            margin: 2em 0;
-        }
-        footer {
-            margin-top: 2em;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Joelcio Pavimentações</title>
 </head>
 <body>
     <header>
-        <h1>Xis Delícia</h1>
+        <h1>Joelcio Pavimentações</h1>
         <nav>
-            <a href="#">Home</a>
             <a href="#">Sobre</a>
-            <a href="#">Cardápio</a>
-            <a href="#">Depoimentos</a>
-            <a href="#">Contato</a>
+            <a href="#">Serviços prestados</a>
+            <a href="#">Serviços Concluídos</a>
+            <a href="#">Contatos</a>
         </nav>
     </header>
-    <section class="highlight">
-        <h1>O melhor xis da cidade!</h1>
-    </section>
+    <!-- Serviços Prestados -->
     <section class="content">
-        <h2>Nossos Produtos</h2>
-        <div class="menu-item">
-            <h3>Xis Salada</h3>
-            <img src="xis-salada.jpg" alt="Xis Salada">
-            <p>Delicioso xis com alface, tomate, e maionese.</p>
-            <p>Preço: R$ 15,00</p>
-        </div>
-        <div class="menu-item">
-            <h3>Xis Bacon</h3>
-            <img src="xis-bacon.jpg" alt="Xis Bacon">
-            <p>Delicioso xis com bacon crocante.</p>
-            <p>Preço: R$ 18,00</p>
-        </div>
-        <!-- Adicione mais itens do cardápio conforme necessário -->
+        <h2>Serviços prestados</h2>
+        <article class="menu-item">
+            <p>Pavimentação</p>
+            <img src="." alt="Pavimentação">
+            <p>Calçadas</p>  
+            <img src="." alt="Calçadas">
+            <p>Ladrilhos</p>
+            <img src="." alt="Ladrilhos">
+            <p>Muros</p>
+            <img src="." alt="Muros">
+        </article>
+        <!-- Serviços Concluidos / JS -->
     </section>
-    <section class="content">
-        <h2>Experiência e Qualidade</h2>
-        <p>Usamos apenas ingredientes frescos e de alta qualidade. Nossa experiência de anos na produção de xis garante o melhor sabor para você.</p>
-    </section>
-    <section class="content testimonial">
-        <h2>Depoimentos de Clientes</h2>
-        <p>"O melhor xis que já comi!" - Maria</p>
-        <p>"Excelente atendimento e sabor incrível!" - João</p>
-    </section>
-    <section class="content contact-form">
-        <h2>Contato</h2>
-        <form>
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
+    <section class="servicos-concluidos">
+        <h2>Serviços Concluidos</h2>
+        <section>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </section>
     </section>
     <section class="content map">
-        <h2>Localização</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h2>Regiões onde atendemos:</h2>
+        <img src="./img/mapa.png" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </section>
+    <section class="sobre">
+        <h3>Ao longo de sua trajetória, a empresa Joelcio Pavimentações criou um vasto portfólio de projetos concluídos com sucesso, tanto para clientes públicos quanto privados. A empresa se orgulha de ter atendido diversas cidades e setores, garantindo a satisfação dos clientes com serviços pontuais, eficientes e dentro do orçamento. A qualidade e o compromisso com a segurança e a sustentabilidade são os pilares que sustentam a estabilidade sólida e o crescimento
+
+         Com uma base de clientes fiéis e um histórico de obras bem-sucedidas, a Joelcio Pavimentações segue expandindo sua presença no mercado, sempre em busca de inovações e  </h3>
     </section>
     <footer>
-        <p>&copy; 2024 Xis Delícia. Todos os direitos reservados.</p>
         <p>
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a> |
-            <a href="#">Twitter</a>
+            <a href="#">Whatsapp</a> |
+            <a href="#">Instagram</a> 
         </p>
     </footer>
 </body>
